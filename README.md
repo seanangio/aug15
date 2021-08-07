@@ -45,7 +45,8 @@ glimpse(corpus)
 #> $ text     <chr> "My dear countrymen,\n\nCongratulations and many best wishes …
 ```
 
-Alternatively, you can directly download the [csv file]().
+Alternatively, you can directly download the [csv
+file](https://github.com/seanangio/aug15/tree/main/inst/final_csv).
 
 ## Analysis
 
