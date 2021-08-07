@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# aug15 - Data set of Indian Independence Day Speeches
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package includes a data set of full-text English renderings of Indian Independence Day speeches, delivered annually on 15 August since 1947. 
+
+Recent speeches are easily found online. For older speeches, I was able to find them in volumes of collected speeches in the libraries of Jawaharlal Nehru University and the Nehru Memorial Museum.
+
+The data set is only missing speeches from 1962 and 1995. Please contact me if you're able to find the speech for those years! Or evidence of one not taking place.
+
+## Installation
+
+You can access the data set by installing the package from GitHub. 
+
+``` r
+# install.packages("devtools")
+devtools::install_github("seanangio/aug15")
+```
+
+To preview it, just run:
+
+```{r example, message=FALSE}
+library(dplyr)
+library(aug15)
+glimpse(corpus)
+```
+
+Alternatively, you can directly download the [csv file]().
+
+## Analysis
+
+For a more in-depth look, including analysis of most common words, please see the package [vignette]().
+
+
+

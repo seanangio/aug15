@@ -1,0 +1,39 @@
+---
+title: "analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{analysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+library(knitr)
+library(here)
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE,
+  message = FALSE,
+  out.width = "90%"
+)
+# https://github.com/r-lib/pkgdown/issues/1159
+do.call(read_chunk, 
+        list(path = here("inst", "analysis_code",
+                         "analysis_code.R")))
+```
+
+**This is a work in progress.**
+
+Here's the data for the most recent 6 years...
+
+```{r setup}
+```
+
+## Word Count
+
+Start by looking at length of speeches over time...
+
+```{r word_counts}
+```
+
