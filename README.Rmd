@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 This package includes a data set of full-text English renderings of Indian Independence Day speeches, delivered annually on 15 August since 1947. 
 
-Recent speeches are easily found online. For older speeches, I was able to find them in volumes of collected speeches in the libraries of Jawaharlal Nehru University and the Nehru Memorial Museum.
+Recent speeches are easily found online. For older speeches, I was able to find them in volumes of collected speeches in the libraries of Jawaharlal Nehru University and the Nehru Memorial Museum. Speeches in those volumes were digitized by uploading images to Google Drive's native OCR feature.
 
 The data set is only missing speeches from 1962 and 1995. Please contact me if you're able to find the speech for those years! Or evidence of one not taking place.
 
@@ -33,7 +33,7 @@ You can access the data set by installing the package from GitHub.
 devtools::install_github("seanangio/aug15")
 ```
 
-To preview it, just run:
+The dataset is called ``corpus``. To preview it, just run:
 
 ```{r example, message=FALSE}
 library(dplyr)

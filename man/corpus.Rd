@@ -5,7 +5,7 @@
 \alias{corpus}
 \title{English rendering of Indian Independence Day speeches}
 \format{
-A data frame with 74 rows and 8 variables:
+A data frame with 75 rows and 8 variables:
 \describe{
 \item{year}{year of speech as an integer}
 \item{pm}{name of Prime Minister delivering speech}
