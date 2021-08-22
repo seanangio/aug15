@@ -29,7 +29,7 @@ You can access the data set by installing the package from GitHub.
 devtools::install_github("seanangio/aug15")
 ```
 
-The dataset is called `corpus`. To preview it, just run:
+The data set is called `corpus`. To preview it, just run:
 
 ``` r
 library(dplyr)
@@ -48,7 +48,9 @@ glimpse(corpus)
 ```
 
 Alternatively, you can directly download the [csv
-file](https://github.com/seanangio/aug15/tree/main/inst/final_csv).
+file](https://github.com/seanangio/aug15/tree/main/inst/final_csv) or
+browse any of the speeches in this
+[folder](https://github.com/seanangio/aug15/tree/main/inst/extdata).
 
 ## Analysis
 
