@@ -52,7 +52,16 @@ file](https://github.com/seanangio/aug15/tree/main/inst/final_csv) or
 browse any of the speeches in this
 [folder](https://github.com/seanangio/aug15/tree/main/inst/extdata).
 
-## Analysis
+## Investigation
 
-For a more in-depth look, including analysis of most common words,
-please see the package [vignette]().
+For a brief investigation into the data set, this package includes a
+[shiny
+app](https://github.com/seanangio/aug15/tree/master/inst/examples/analysis_app)
+to make basic visualizations, including:
+
+-   speech length,
+-   most frequent words,
+-   most ‘important’ words (TF-IDF),
+-   most frequent positive and negative words,
+-   net sentiment, and
+-   frequency of specific words.
