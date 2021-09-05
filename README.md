@@ -10,11 +10,11 @@ This package includes a data set of full-text English renderings of
 Indian Independence Day speeches, delivered annually on 15 August since
 1947.
 
-Recent speeches are easily found online. For older speeches, I was able
-to find them in volumes of collected speeches in the libraries of
-Jawaharlal Nehru University and the Nehru Memorial Museum. Speeches in
-those volumes were digitized by uploading images to Google Drive’s
-native OCR feature.
+Recent speeches are easily found online from the [Press Information
+Bureau](https://pib.gov.in). For older speeches, I was able to find them
+in volumes of collected speeches in the libraries of Jawaharlal Nehru
+University and the Nehru Memorial Museum. Speeches in those volumes were
+digitized by uploading images to Google Drive’s native OCR feature.
 
 The data set is only missing speeches from 1962 and 1995. Please contact
 me if you’re able to find the speech for those years! Or evidence of one
@@ -29,7 +29,7 @@ You can access the data set by installing the package from GitHub.
 devtools::install_github("seanangio/aug15")
 ```
 
-The data set is called `corpus`. To preview it, just run:
+The data set is called `corpus`. To preview it, run something like:
 
 ``` r
 library(dplyr)
@@ -57,11 +57,27 @@ browse any of the speeches in this
 For a brief investigation into the data set, this package includes a
 [shiny
 app](https://github.com/seanangio/aug15/tree/master/inst/examples/analysis_app)
-to make basic visualizations, including:
+to make basic visualizations, including plots of:
 
--   speech length,
--   most frequent words,
--   most ‘important’ words (TF-IDF),
--   most frequent positive and negative words,
--   net sentiment, and
--   frequency of specific words.
+-   speech length
+
+![Plot of speech word count](inst/plot-pngs/speech-length.png)
+
+-   most ‘important’ words (TF-IDF)
+
+![Plot of TF-IDF for recent years](inst/plot-pngs/tf-idf.png)
+
+-   most frequent positive and negative words (according to the Bing
+    lexicon)
+
+![Plot of most frequent positive and negative
+words](inst/plot-pngs/pos-neg-words.png)
+
+-   net sentiment (according to the Bing lexicon)
+
+![Plot of net sentiment](inst/plot-pngs/net-sentiment.png)
+
+-   and the frequency of any word supplied by the user
+
+![Plot of frequency of the term
+Kashmir](inst/plot-pngs/specific-word.png)

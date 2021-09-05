@@ -25,4 +25,4 @@ Suggests:
     magrittr,
     tidytext
 VignetteBuilder: knitr
-URL: https://seanangio.github.io/aug15, https://github.com/seanangio/aug15
+URL: https://github.com/seanangio/aug15
