@@ -16,13 +16,17 @@ RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
 Suggests: 
-    rmarkdown,
     knitr,
-    here,
-    DT,
     dplyr,
     ggplot2,
-    magrittr,
-    tidytext
+    tidytext,
+    forcats,
+    stringr,
+    tidyr,
+    ggiraph,
+    scales,
+    shiny,
+    shinyWidgets,
+    shinycssloaders
 VignetteBuilder: knitr
 URL: https://github.com/seanangio/aug15
