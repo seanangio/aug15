@@ -6,6 +6,7 @@ library(stringr)
 library(tibble)
 library(readr)
 library(dplyr)
+library(jsonlite)
 
 # prepare text found in pdfs
 file_paths <- list.files(here("inst", "extdata"),
@@ -37,4 +38,12 @@ final_csv_folder <- here("inst", "final_csv")
 if (!dir.exists(final_csv_folder)) {
   dir.create(final_csv_folder)
 }
+
 write_csv(corpus, paste0(final_csv_folder, "/corpus.csv"))
+
+# output a json file for github
+final_json_folder <- here("inst", "final_json")
+if (!dir.exists(final_json_folder)) {
+  dir.create(final_json_folder)
+}
+write_json(corpus, paste0(final_json_folder, "/corpus.json"))
