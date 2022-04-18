@@ -23,7 +23,6 @@ Suggests:
     forcats,
     stringr,
     tidyr,
-    jsonlite,
     ggiraph,
     scales,
     shiny,
