@@ -45,7 +45,7 @@ Alternatively, you can directly download the [csv file](https://github.com/seana
 
 ## Investigation
 
-For a brief investigation into the data set, this package includes a [shiny app](https://github.com/seanangio/aug15/tree/master/inst/examples/analysis_app) to make basic visualizations, including plots of:
+For a brief investigation into the data set (until 2021), this package includes a [shiny app](https://github.com/seanangio/aug15/tree/master/inst/examples/analysis_app) to make basic visualizations, including plots of:
 
 * speech length
 
