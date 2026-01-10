@@ -14,7 +14,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 Suggests: 
     knitr,
     dplyr,
@@ -27,6 +27,12 @@ Suggests:
     scales,
     shiny,
     shinyWidgets,
-    shinycssloaders
+    shinycssloaders,
+    here,
+    pdftools,
+    purrr,
+    readr,
+    tibble,
+    usethis
 VignetteBuilder: knitr
 URL: https://github.com/seanangio/aug15

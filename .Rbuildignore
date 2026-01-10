@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 ^aug15\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
