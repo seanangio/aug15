@@ -2,6 +2,8 @@
 
 A Python port of the R Shiny app for analyzing Indian Independence Day speeches delivered annually on August 15th since 1947.
 
+Note: The Streamlit app was created entirely with Claude Code.
+
 ## Features
 
 This interactive web application provides visualizations including:
