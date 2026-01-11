@@ -38,14 +38,14 @@ library(aug15)
 glimpse(corpus)
 #> Rows: 79
 #> Columns: 8
-#> $ year     <dbl> 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2~
-#> $ pm       <chr> "Narendra Modi", "Narendra Modi", "Narendra Modi", "Narendra ~
-#> $ party    <chr> "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP"~
-#> $ title    <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
-#> $ footnote <chr> "English rendering of Prime Minister Shri Narendra Modi's add~
-#> $ source   <chr> "Press Information Bureau", "Press Information Bureau", "Pres~
-#> $ url      <chr> "https://pib.gov.in/", "https://pib.gov.in/", "https://pib.go~
-#> $ text     <chr> "My dear countrymen,\n\nThis grand festival of Independence i~
+#> $ year     <dbl> 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2…
+#> $ pm       <chr> "Narendra Modi", "Narendra Modi", "Narendra Modi", "Narendra …
+#> $ party    <chr> "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "BJP"…
+#> $ title    <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+#> $ footnote <chr> "English rendering of Prime Minister Shri Narendra Modi's add…
+#> $ source   <chr> "Press Information Bureau", "Press Information Bureau", "Pres…
+#> $ url      <chr> "https://pib.gov.in/", "https://pib.gov.in/", "https://pib.go…
+#> $ text     <chr> "My dear countrymen,\n\nThis grand festival of Independence i…
 ```
 
 Alternatively, you can directly download the [CSV
@@ -103,3 +103,10 @@ alt="Plot of frequency of the term Kashmir" />
 <figcaption aria-hidden="true">Plot of frequency of the term
 Kashmir</figcaption>
 </figure>
+
+## Python Port
+
+A Python implementation of the analysis app is also available, built
+with Streamlit. It provides the same visualizations and functionality as
+the R Shiny app. For installation and usage instructions, see the
+[Python README](python/README.md).

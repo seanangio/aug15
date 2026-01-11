@@ -67,3 +67,7 @@ For a brief investigation into the data set, this package includes a [shiny app]
 
 ![Plot of frequency of the term Kashmir](inst/plot-pngs/specific-word.png)
 
+## Python Port
+
+A Python implementation of the analysis app is also available, built with Streamlit. It provides the same visualizations and functionality as the R Shiny app. For installation and usage instructions, see the [Python README](python/README.md).
+
